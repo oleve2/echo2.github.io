@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+div {
+    /*border: 1px solid black;*/
+    padding: 5px 5px;
+}
+
+.content {
+    display: flex;
+}
+
+.answ-samples {
+	display: flex;
+    flex-direction: column;
+    padding: 10px 10px;    
+}
+
+.sampleBtn {
+    margin-bottom: 10px;
+}
+
+.screamBtn {
+    background-color: green;
+    width: 150px;
+    height: 80px;
+    color: white;
+    font-size: 28px;
+    font-family: Roboto;
+}

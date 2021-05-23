@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo simulator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <h1>Симулятор эха в горах!</h1>
+        <div class="content">
+            <div>
+                <label for="tar1">Текст для крика</label><br>
+                <textarea name="textarea" id="text-arr-1" cols="30" rows="10"></textarea><br>
+            </div>
+            <div class="answ-samples">
+                <label >Шаблоны криков:</label>
+                <button class="sampleBtn" type="button" onclick="setSample1()">sample1</button>
+                <button class="sampleBtn" type="button" onclick="setSample2()">sample2</button>
+                <button class="sampleBtn" type="button" onclick="setSample3()">sample3</button>
+                <label>Очистить текст для крика</label>
+                <button class="sampleBtn" type="button" onclick="clearTextArea()">Очистить текст крика</button>
+            </div>
+        </div>
+        <div>
+            <label for="screamBtn">Кнопка для крика</label><br>
+            <button class="screamBtn" type="button" id="screamBtn" onclick="alertTextAreaCode()">Крикнуть!</button>
+        </div>
+    </div>
+    <script src="js/script1.js"></script>
+</body>
+</html>
